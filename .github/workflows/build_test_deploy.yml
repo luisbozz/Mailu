@@ -5,7 +5,7 @@ on:
       architecture:
         description: 'The architecture of the images that will be build.'
         required: false
-        default: 'linux/amd64'
+        default: 'linux/arm64/v8'
         type: string
       mailu_version:
         description: 'The main version that is build. E.g. master or x.y.'
@@ -39,7 +39,7 @@ on:
       architecture:
         description: 'The architecture of the images that will be build.'
         required: false
-        default: 'linux/amd64'
+        default: 'linux/arm64/v8'
         type: string
       mailu_version:
         description: 'The main version that is build. E.g. master or x.y.'
